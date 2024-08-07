@@ -12,6 +12,7 @@
 		812C7BBA2C63885E001207EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812C7BB92C63885E001207EA /* Assets.xcassets */; };
 		812C7BBD2C63885E001207EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812C7BBC2C63885E001207EA /* Preview Assets.xcassets */; };
 		812C7BCE2C6389FB001207EA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C7BCD2C6389FB001207EA /* MainTabView.swift */; };
+		812C7BD32C639C91001207EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C7BD22C639C91001207EA /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		812C7BB92C63885E001207EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		812C7BBC2C63885E001207EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		812C7BCD2C6389FB001207EA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		812C7BD22C639C91001207EA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		812C7BC92C638973001207EA /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				812C7BD22C639C91001207EA /* CardView.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				812C7BB82C63885D001207EA /* ContentView.swift in Sources */,
 				812C7BB62C63885D001207EA /* SAAProjectApp.swift in Sources */,
+				812C7BD32C639C91001207EA /* CardView.swift in Sources */,
 				812C7BCE2C6389FB001207EA /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
