@@ -11,6 +11,7 @@
 		812C7BB82C63885D001207EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C7BB72C63885D001207EA /* ContentView.swift */; };
 		812C7BBA2C63885E001207EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812C7BB92C63885E001207EA /* Assets.xcassets */; };
 		812C7BBD2C63885E001207EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812C7BBC2C63885E001207EA /* Preview Assets.xcassets */; };
+		812C7BCE2C6389FB001207EA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C7BCD2C6389FB001207EA /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		812C7BB72C63885D001207EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		812C7BB92C63885E001207EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		812C7BBC2C63885E001207EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		812C7BCD2C6389FB001207EA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,11 @@
 		812C7BB42C63885D001207EA /* SAAProject */ = {
 			isa = PBXGroup;
 			children = (
-				812C7BB52C63885D001207EA /* SAAProjectApp.swift */,
+				812C7BC62C6388D1001207EA /* App */,
+				812C7BC52C6388CA001207EA /* Core */,
+				812C7BC42C6388C8001207EA /* Extensions */,
+				812C7BC32C6388C4001207EA /* Shared */,
+				812C7BC72C63892B001207EA /* Utils */,
 				812C7BB72C63885D001207EA /* ContentView.swift */,
 				812C7BB92C63885E001207EA /* Assets.xcassets */,
 				812C7BBB2C63885E001207EA /* Preview Content */,
@@ -65,6 +71,83 @@
 				812C7BBC2C63885E001207EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		812C7BC32C6388C4001207EA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		812C7BC42C6388C8001207EA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		812C7BC52C6388CA001207EA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				812C7BC92C638973001207EA /* Cards */,
+				812C7BCA2C638980001207EA /* Profile */,
+				812C7BCC2C638996001207EA /* Messaging */,
+				812C7BCB2C63898D001207EA /* Search */,
+				812C7BC82C638963001207EA /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		812C7BC62C6388D1001207EA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				812C7BB52C63885D001207EA /* SAAProjectApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		812C7BC72C63892B001207EA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		812C7BC82C638963001207EA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				812C7BCD2C6389FB001207EA /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		812C7BC92C638973001207EA /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		812C7BCA2C638980001207EA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		812C7BCB2C63898D001207EA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		812C7BCC2C638996001207EA /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +222,7 @@
 			files = (
 				812C7BB82C63885D001207EA /* ContentView.swift in Sources */,
 				812C7BB62C63885D001207EA /* SAAProjectApp.swift in Sources */,
+				812C7BCE2C6389FB001207EA /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
