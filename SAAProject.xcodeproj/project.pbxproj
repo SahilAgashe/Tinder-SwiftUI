@@ -127,7 +127,7 @@
 		812C7BC92C638973001207EA /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				812C7BD22C639C91001207EA /* CardView.swift */,
+				812C7BD42C639D51001207EA /* View */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -151,6 +151,14 @@
 			children = (
 			);
 			path = Messaging;
+			sourceTree = "<group>";
+		};
+		812C7BD42C639D51001207EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				812C7BD22C639C91001207EA /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
