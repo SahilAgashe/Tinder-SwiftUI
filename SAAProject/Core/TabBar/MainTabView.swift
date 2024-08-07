@@ -19,13 +19,17 @@ struct MainTabView: View {
                 .tag(1)
             
             Text("Inbox View")
-                .tabItem { Image(systemName: "bubble") }
+                .tabItem { 
+                    // you can use messageIcon as image here
+                    Image(systemName: "bubble")
+                }
                 .tag(2)
             
             Text("Profile View")
                 .tabItem { Image(systemName: "person") }
                 .tag(3)
         }
+        .tint(.primary)
     }
 }
 
