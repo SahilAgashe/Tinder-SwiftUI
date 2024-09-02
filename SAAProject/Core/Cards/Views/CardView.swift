@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CardView: View {
-    
     @State private var xOffset = CGFloat.zero
     @State private var degrees = Double.zero
     @State private var currentImageIndex = 6
