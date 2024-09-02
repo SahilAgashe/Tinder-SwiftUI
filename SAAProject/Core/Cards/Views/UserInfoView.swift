@@ -34,12 +34,14 @@ struct UserInfoView: View {
                 .font(.subheadline)
                 .lineLimit(2)
         }
+        .printOutput("Body of UserInfoView", #line)
         .foregroundStyle(.white)
         .padding()
         .background {
             LinearGradient(colors: [.clear, .black], startPoint: .top, endPoint: .bottom)
         }
     }
+
 }
 
 struct UserInfoView_Previews: PreviewProvider {

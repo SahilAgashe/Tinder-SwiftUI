@@ -45,6 +45,10 @@ struct SwipeActionIndicatorView: View {
 
 struct SwipeActionIndicatorView_Previews: PreviewProvider {
     static var previews: some View {
-        SwipeActionIndicatorView(xOffset: .constant(20))
+        SwipeActionIndicatorView(xOffset: .constant(-200))
     }
+}
+
+#Preview {
+    SwipeActionIndicatorView(xOffset: .constant(-200))
 }
